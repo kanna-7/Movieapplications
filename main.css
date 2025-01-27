@@ -1,0 +1,27 @@
+#movies{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h3,h1{
+    text-align: centre;
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+#model{
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top:25rem;
+    width: max-content;
+    background-color:aqua;
+   
+}
+#close{
+    padding:1rem;
+}
